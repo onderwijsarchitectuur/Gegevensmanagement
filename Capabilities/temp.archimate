@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Stripped model" id="id-d3e98ce6531f491b8cd82fe11171f875" version="5.0.0">
+  <folder name="Strategy" id="id-48554b0e038f4c288be239f8b972db57" type="strategy"/>
+  <folder name="Business" id="id-94520015559645cc9668f016687d45fc" type="business">
+    <folder name="Business-object" id="id-bfe2c8f5f7e64640a29dd867fadef6ef"/>
+  </folder>
+  <folder name="Application" id="id-5bb27bc721b04c888d735a6c016b88c6" type="application">
+    <element xsi:type="archimate:DataObject" name="Legal person" id="id-ac5b4b96f5a54ef698561be7aa1dd9d5">
+      <documentation>Een orgaan van een rechtspersoon krachtens publiekrecht ingesteld (a-orgaan) of een persoon of college met enig openbaar gezag bekleed (b-orgaan) (herkomst definitie AWB)&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Regio" id="id-21a5a822a9c54c1ab140353c75533ea8">
+      <documentation>Een aaneengesloten geografisch gebied met een bepaald taalkundig, cultureel, demografisch en/of institutioneel karakter, al dan niet erkend door de officiële instanties</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Onderwijspersoneel" id="id-46a17508b45d4db5a2637db295738e3f">
+      <documentation>Een (natuurlijk) persoon met een dienstverband  bij een onderwijsbestuur.&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Address" id="id-16b3411c59444f3991358c1a3ff5d671">
+      <documentation>Adres is een fysieke of administratieve locatie waar een persoon of organisatie gevestigd is of waar communicatie kan worden ontvangen (herkomst definitie Stelselclusterbegrip)</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Learner" id="id-c6efb44e94924995ab2e80aaf2b00103">
+      <documentation>Een persoon is een mens als subject en drager van rechten en plichten (herkomst definitie BAP)&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Learner enrollment" id="id-49cb5a7b55d74ab5927f515e52d74113">
+      <documentation>De afspraak dat een natuurlijke persoon een opleiding van een onderwijsaanbieder volgt (herkomst definitie GWB).&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Learner omission" id="id-9adea93c45d547fcafd0c6968c3b496b">
+      <documentation>Relatief verzuim het ongeoorloofd afwezig zijn bij een onderwijsaanbieder waar een leerplichtige staat ingeschreven (herkomst definitie ROD Verzuim)&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Learner result" id="id-2b0a6535fa66482e9f4ae1a7303dd838">
+      <documentation>Het eind- of deelresultaat van een opleiding die is gevolgd door een mens bij een onderwijsaanbieder (herkomst definitie ROD).&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Learning opportunity (type)" id="id-3f507ebb063346419e6e474d8e18bfbd">
+      <documentation>Een samenhangende eenheid van onderwijs, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, attitude en vaardigheden (herkomst definitie RIO)</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Learning opportunity (instance)" id="id-2c12e6ba723248cb954f2dbb7abb9064">
+      <documentation>Het aanbieden van lessen en/of examens voor een opleiding door een onderwijsaanbieder  in een bepaalde onderwijsvorm (herkomst definitie ROD)</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Educational institution " id="id-11797b883b514e2b90c1bef9088b6ff9">
+      <documentation>Een organisatie die door een onderwijsbestuur is ingesteld voor het verzorgen van onderwijs (herkomst definitie RIO)&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Accreditation organization" id="id-1e01ed2739764653b709b40cf7eb7f1f">
+      <documentation>Een organisatie, kan DUO zijn maar hoeft niet, die een onderwijsaanbieder of een opleiding of de combinatie erkent, bijvoorbeeld om in aanmerking te komen voor bekostiging of om een diploma af te geven.&#xD;
+</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="BAG-verblijfsobject" id="id-8161c2bfed8648ceb02663f792041783">
+      <documentation>Zie stelselplaat basisregistraties</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="NHR rechtspersoon" id="id-a7a687ceb3144321ae0adbc7c19de860">
+      <documentation>Zie stelselplaat basisregistraties</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" name="Natural person" id="id-95cf517644bd4cccae079a617c47e2e6">
+      <documentation>Zie stelselplaat basisregistraties</documentation>
+    </element>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-52b92ab547af42ddb2fafde31edd9c49" type="technology"/>
+  <folder name="Motivation" id="id-743e87f850314e20a4944530feb87a36" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-4c3258b77c8641c0877c0bcf6264d831" type="implementation_migration"/>
+  <folder name="Other" id="id-b3d4dcf9f5eb485ab293fbf0b68832cd" type="other"/>
+  <folder name="Relations" id="id-e1acb1f2946241c58b6903db33b17f1a" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-e250a5d972904f80b89f741778d339a6" source="id-ac5b4b96f5a54ef698561be7aa1dd9d5" target="id-46a17508b45d4db5a2637db295738e3f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-1b00a3e38199464ea7eae76a18f739f8" source="id-ac5b4b96f5a54ef698561be7aa1dd9d5" target="id-a7a687ceb3144321ae0adbc7c19de860"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-22d6029bf06e4f3fa02fbef5455ea23f" source="id-16b3411c59444f3991358c1a3ff5d671" target="id-21a5a822a9c54c1ab140353c75533ea8"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-0f70e3852a624f21945f946b6a5e50f8" source="id-16b3411c59444f3991358c1a3ff5d671" target="id-2c12e6ba723248cb954f2dbb7abb9064"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-cb70dce30e5641b38a8e82cbd8d513dd" source="id-c6efb44e94924995ab2e80aaf2b00103" target="id-16b3411c59444f3991358c1a3ff5d671"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-b477ba4af27c4ad08aa89f6410934797" source="id-c6efb44e94924995ab2e80aaf2b00103" target="id-9adea93c45d547fcafd0c6968c3b496b"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-f3a9514c18884000923f8d13eecf57a5" source="id-c6efb44e94924995ab2e80aaf2b00103" target="id-95cf517644bd4cccae079a617c47e2e6"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-32ab4d685e5245298dc3ca65c30e03c1" source="id-49cb5a7b55d74ab5927f515e52d74113" target="id-c6efb44e94924995ab2e80aaf2b00103"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-e15f1695d9d1435fabc9620179521395" source="id-9adea93c45d547fcafd0c6968c3b496b" target="id-49cb5a7b55d74ab5927f515e52d74113"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-496b5c8894be4a70a1a6caa72df4bf92" source="id-9adea93c45d547fcafd0c6968c3b496b" target="id-2c12e6ba723248cb954f2dbb7abb9064"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-5397c0718e184a20903474c0b2657d81" source="id-2b0a6535fa66482e9f4ae1a7303dd838" target="id-9adea93c45d547fcafd0c6968c3b496b"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-4f6e1202a0df4a27b6de2a28e35f68e1" source="id-2b0a6535fa66482e9f4ae1a7303dd838" target="id-c6efb44e94924995ab2e80aaf2b00103"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-fb03b37d3c1d432d90e7a95a7293f0f0" source="id-3f507ebb063346419e6e474d8e18bfbd" target="id-2c12e6ba723248cb954f2dbb7abb9064"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-9dae3708540246ebbd3c01e6cb153c91" source="id-2c12e6ba723248cb954f2dbb7abb9064" target="id-1e01ed2739764653b709b40cf7eb7f1f"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-c999a3c82a8744d3b324ba764c765c12" source="id-2c12e6ba723248cb954f2dbb7abb9064" target="id-2b0a6535fa66482e9f4ae1a7303dd838"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-6465394ca3fd43829f98c04e2cef681b" source="id-2c12e6ba723248cb954f2dbb7abb9064" target="id-49cb5a7b55d74ab5927f515e52d74113"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-2a6fb4244ecf44f4bef91fb03396766b" source="id-11797b883b514e2b90c1bef9088b6ff9" target="id-ac5b4b96f5a54ef698561be7aa1dd9d5"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a67ba2ddbd114c3bac19bbf0b4b617ee" source="id-11797b883b514e2b90c1bef9088b6ff9" target="id-2c12e6ba723248cb954f2dbb7abb9064"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-9ccc733088e848b3a940185b0d66ed31" source="id-8161c2bfed8648ceb02663f792041783" target="id-16b3411c59444f3991358c1a3ff5d671"/>
+  </folder>
+  <folder name="Views" id="id-f9682fadef51419b846c734d25a81c58" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="DUO Gegevensobjectenmodel Registers" id="id-32d8d6f374b542ccbb985fd81bd2745d" viewpoint="layered">
+      <child xsi:type="archimate:DiagramObject" id="id-7c2b19ff425b4925a850c79d10cf7173" targetConnections="id-6c61a1d56305402e886d206732d6a525" fillColor="#00ff00" archimateElement="id-ac5b4b96f5a54ef698561be7aa1dd9d5">
+        <bounds x="696" y="348" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-46a53c4816794efd8cdcc0dbcbb99bf2" targetConnections="id-1d033b223b4c410faaa79e6a4f4902f6 id-9346b3b0ffad4e9ea56440d9ddaadd9d" archimateElement="id-c6efb44e94924995ab2e80aaf2b00103">
+        <bounds x="228" y="183" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e757ed0ced0a4e7fa3cc31229e986d50" source="id-46a53c4816794efd8cdcc0dbcbb99bf2" target="id-ad1760d06d2b497e9d391c24a1f0c5f2" archimateRelationship="id-b477ba4af27c4ad08aa89f6410934797"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3644802daff54ecc8f1878e32526ef80" source="id-46a53c4816794efd8cdcc0dbcbb99bf2" target="id-ee6b436678e3404ab4d55dd0791047f6" archimateRelationship="id-f3a9514c18884000923f8d13eecf57a5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-977f2a13ed504c19baa055eb52088742" targetConnections="id-6c42aabe02dd4f05b1b46363e0e2b8d0" archimateElement="id-49cb5a7b55d74ab5927f515e52d74113">
+        <bounds x="456" y="96" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-1d033b223b4c410faaa79e6a4f4902f6" source="id-977f2a13ed504c19baa055eb52088742" target="id-46a53c4816794efd8cdcc0dbcbb99bf2" archimateRelationship="id-32ab4d685e5245298dc3ca65c30e03c1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ad1760d06d2b497e9d391c24a1f0c5f2" targetConnections="id-e757ed0ced0a4e7fa3cc31229e986d50" archimateElement="id-9adea93c45d547fcafd0c6968c3b496b">
+        <bounds x="228" y="84" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bd5c8e650e2d4d8fad5121643e6b5fd0" targetConnections="id-aeb4b907842b4b7ca55da9a9d698019d" archimateElement="id-2b0a6535fa66482e9f4ae1a7303dd838">
+        <bounds x="456" y="252" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9346b3b0ffad4e9ea56440d9ddaadd9d" source="id-bd5c8e650e2d4d8fad5121643e6b5fd0" target="id-46a53c4816794efd8cdcc0dbcbb99bf2" archimateRelationship="id-4f6e1202a0df4a27b6de2a28e35f68e1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-06109cadf7d8448f97a92914237f5e90" archimateElement="id-3f507ebb063346419e6e474d8e18bfbd">
+        <bounds x="696" y="84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c51a1dc4599545dc9a16635c90e004ed" source="id-06109cadf7d8448f97a92914237f5e90" target="id-63d532e62ad74637a889670d30b709f2" archimateRelationship="id-fb03b37d3c1d432d90e7a95a7293f0f0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-63d532e62ad74637a889670d30b709f2" targetConnections="id-c51a1dc4599545dc9a16635c90e004ed id-2b37ab5112634b7f805b10e5bbfd12d9" archimateElement="id-2c12e6ba723248cb954f2dbb7abb9064">
+        <bounds x="696" y="168" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-aeb4b907842b4b7ca55da9a9d698019d" source="id-63d532e62ad74637a889670d30b709f2" target="id-bd5c8e650e2d4d8fad5121643e6b5fd0" archimateRelationship="id-c999a3c82a8744d3b324ba764c765c12"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-6c42aabe02dd4f05b1b46363e0e2b8d0" source="id-63d532e62ad74637a889670d30b709f2" target="id-977f2a13ed504c19baa055eb52088742" archimateRelationship="id-6465394ca3fd43829f98c04e2cef681b"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d4a4e8a79c694d8491e36cec2847a4bb" archimateElement="id-11797b883b514e2b90c1bef9088b6ff9">
+        <bounds x="696" y="252" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-6c61a1d56305402e886d206732d6a525" source="id-d4a4e8a79c694d8491e36cec2847a4bb" target="id-7c2b19ff425b4925a850c79d10cf7173" archimateRelationship="id-2a6fb4244ecf44f4bef91fb03396766b"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2b37ab5112634b7f805b10e5bbfd12d9" source="id-d4a4e8a79c694d8491e36cec2847a4bb" target="id-63d532e62ad74637a889670d30b709f2" archimateRelationship="id-a67ba2ddbd114c3bac19bbf0b4b617ee"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ee6b436678e3404ab4d55dd0791047f6" targetConnections="id-3644802daff54ecc8f1878e32526ef80" fillColor="#00ff00" archimateElement="id-95cf517644bd4cccae079a617c47e2e6">
+        <bounds x="228" y="348" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
