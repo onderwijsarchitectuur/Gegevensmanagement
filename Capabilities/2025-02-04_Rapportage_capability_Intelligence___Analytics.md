@@ -1,7 +1,7 @@
 # Rapportage capability Intelligence & Analytics
 
 
-Report generated at: 2025-02-03  10:07:26
+Report generated at: 2025-02-04  14:26:14
 
 ---
 ## Inhoudsopgave
@@ -46,7 +46,7 @@ Het doel van onderstaande view is tweeledig
 
 Zie properties.
 <figure align="center">
-  <img width="1787" src="2025-02-03_Rapportage_capability_Intelligence___Analytics/EA_DUO_Gegevenscapabilities_-_grondplaat.svg" alt="EA DUO Gegevenscapabilities - grondplaat">
+  <img width="1787" src="2025-02-04_Rapportage_capability_Intelligence___Analytics/EA_DUO_Gegevenscapabilities_-_grondplaat.svg" alt="EA DUO Gegevenscapabilities - grondplaat">
   <figcaption><i>EA DUO Gegevenscapabilities - grondplaat</i></figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ Dit bestaat voornamelijk aan het werken aan gegevens, en daarmee het analyseren,
 
 Zie properties.
 <figure align="center">
-  <img width="749" src="2025-02-03_Rapportage_capability_Intelligence___Analytics/EA_DUO_Gegevenscapabilities_Intelligence_en_Analytics_inrichting_services.svg" alt="EA DUO Gegevenscapabilities Intelligence en Analytics inrichting services">
+  <img width="749" src="2025-02-04_Rapportage_capability_Intelligence___Analytics/EA_DUO_Gegevenscapabilities_Intelligence_en_Analytics_inrichting_services.svg" alt="EA DUO Gegevenscapabilities Intelligence en Analytics inrichting services">
   <figcaption><i>EA DUO Gegevenscapabilities Intelligence en Analytics inrichting services</i></figcaption>
 </figure>
 
@@ -392,7 +392,7 @@ Per service/gebruikspatroon/capability kunnen er op specifiek niveau andere func
 
 Zie properties.
 <figure align="center">
-  <img width="2116" src="2025-02-03_Rapportage_capability_Intelligence___Analytics/EA_DUO_Gegevenscapabilities_Intelligence_en_Analytics_inrichting.svg" alt="EA DUO Gegevenscapabilities Intelligence en Analytics inrichting">
+  <img width="2116" src="2025-02-04_Rapportage_capability_Intelligence___Analytics/EA_DUO_Gegevenscapabilities_Intelligence_en_Analytics_inrichting.svg" alt="EA DUO Gegevenscapabilities Intelligence en Analytics inrichting">
   <figcaption><i>EA DUO Gegevenscapabilities Intelligence en Analytics inrichting</i></figcaption>
 </figure>
 

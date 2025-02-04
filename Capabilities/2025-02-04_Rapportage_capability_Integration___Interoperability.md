@@ -1,6 +1,6 @@
 ## Rapportage capability Integration & Interoperability
 <figure align="center">
-  <img width="480" src="2025-02-03_Rapportage_capability_Integration___Interoperability/Rapportage_capability_Integration___Interoperability.svg" alt="Rapportage capability Integration & Interoperability">
+  <img width="480" src="2025-02-04_Rapportage_capability_Integration___Interoperability/Rapportage_capability_Integration___Interoperability.svg" alt="Rapportage capability Integration & Interoperability">
   <figcaption><i>Rapportage capability Integration & Interoperability</i></figcaption>
 </figure>
 

@@ -1,6 +1,6 @@
 ## Rapportage capability Master & Reference data
 <figure align="center">
-  <img width="480" src="2025-02-03_Rapportage_capability_Master___Reference_data/Rapportage_capability_Master___Reference_data.svg" alt="Rapportage capability Master & Reference data">
+  <img width="480" src="2025-02-04_Rapportage_capability_Master___Reference_data/Rapportage_capability_Master___Reference_data.svg" alt="Rapportage capability Master & Reference data">
   <figcaption><i>Rapportage capability Master & Reference data</i></figcaption>
 </figure>
 
